@@ -1,0 +1,23 @@
+.resize-handle {
+	-fx-fill: transparent ;
+	-fx-opacity: 0.5;
+	-fx-stroke: black;
+}
+
+.label {
+	-fx-font-size: 12;
+}
+
+.selected {
+			 	-fx-stroke: black;
+		 	-fx-stroke-width: 3;
+		 	    -fx-stroke-dash-array: 12 2 4 2;
+		 	    -fx-stroke-dash-offset: 6;
+		 	    -fx-stroke-line-cap: butt;
+}
+
+.root {
+    -fx-background-color: #D3D3D333,
+        linear-gradient(from 0.5px 0px to 10.5px 0px, repeat, black 5%, transparent 5%),
+        linear-gradient(from 0px 0.5px to 0px 10.5px, repeat, black 5%, transparent 5%);
+}

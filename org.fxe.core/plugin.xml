@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	 <extension
+        point="org.eclipse.ui.navigator.linkHelper">
+      <linkHelper
+            class="org.grafandreas.fxe.core.selection.BasicLinkHelper"
+            id="org.fxe.core.BasicLinkHelper">
+         <!--<editorInputEnablement>
+            <instanceof 
+                  value="org.eclipse.emf.common.ui.URIEditorInput" />
+         </editorInputEnablement>-->
+         <selectionEnablement>
+            <instanceof
+                  value="java.lang.Object" />
+         </selectionEnablement>
+         <editorInputEnablement>
+            <instanceof
+                  value="org.eclipse.ui.IEditorInput">
+            </instanceof>
+         </editorInputEnablement>
+      </linkHelper>
+   </extension>
+
+    
+</plugin>
