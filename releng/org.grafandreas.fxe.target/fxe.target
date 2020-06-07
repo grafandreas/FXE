@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="fxe">
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="http://download.eclipse.org/releases/2020-06"/>
+			<unit id="org.eclipse.emf.sdk.feature.group" version="2.22.0.v20200519-1135"/>
+			<unit id="org.eclipse.fx.runtime.min.feature.feature.group" version="3.6.0.201907240103"/>
+			<unit id="org.eclipse.sdk.feature.group" version="4.16.0.v20200528-0200"/>
+			<unit id="org.eclipse.xtext.sdk.feature.group" version="2.22.0.v20200602-1533"/>
+			<unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.12.0.201805140824"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository"/>
+			<unit id="com.fasterxml.jackson.core.jackson-annotations" version="2.10.3.v20200512-1600"/>
+			<unit id="com.fasterxml.jackson.core.jackson-annotations.source" version="2.10.3.v20200512-1600"/>
+			<unit id="com.fasterxml.jackson.core.jackson-core" version="2.10.3.v20200512-1600"/>
+			<unit id="com.fasterxml.jackson.core.jackson-core.source" version="2.10.3.v20200512-1600"/>
+			<unit id="com.fasterxml.jackson.core.jackson-databind" version="2.10.3.v20200512-1600"/>
+			<unit id="com.fasterxml.jackson.core.jackson-databind.source" version="2.10.3.v20200512-1600"/>
+			<unit id="com.google.gson" version="2.8.2.v20180104-1110"/>
+			<unit id="com.google.gson.source" version="2.8.2.v20180104-1110"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="http://download.eclipse.org/sphinx/releases/0.11.x"/>
+			<unit id="org.eclipse.sphinx.sdk.feature.group" version="0.11.0.201706140911"/>
+		</location>
+	</locations>
+</target>
