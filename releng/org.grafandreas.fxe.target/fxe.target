@@ -25,5 +25,17 @@
 			<repository location="http://download.eclipse.org/sphinx/releases/0.11.x"/>
 			<unit id="org.eclipse.sphinx.sdk.feature.group" version="0.11.0.201706140911"/>
 		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+			<repository location="https://download.eclipse.org/efxclipse/runtime-released/3.6.2/site/"/>
+			<unit id="org.eclipse.fx.target.feature.feature.group" version="3.6.2.202001141052"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+			<repository location="http://downloads.efxclipse.bestsolution.at/p2-repos/openjfx-11/repository/"/>
+			<unit id="openjfx.media.feature.feature.group" version="11.0.0.201901231300"/>
+			<unit id="openjfx.standard.feature.feature.group" version="11.0.0.201901231300"/>
+			<unit id="openjfx.swing.feature.feature.group" version="11.0.0.201901231300"/>
+			<unit id="openjfx.swt.feature.feature.group" version="11.0.0.201901231300"/>
+			<unit id="openjfx.web.feature.feature.group" version="11.0.0.201901231300"/>
+		</location>
 	</locations>
 </target>
