@@ -9,6 +9,7 @@
 **********************************************************************/
 package org.grafandreas.fxe.core.labels;
 
+import javafx.scene.*;
 public interface ILabeller {
 
 }
